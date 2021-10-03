@@ -1,0 +1,132 @@
+*
+{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+}
+#cookie {
+
+    cursor: pointer;
+}
+section header {
+
+position:  absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+
+
+}
+section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+
+
+}
+section header ul li a {
+color: black;
+    font-size: 13px;
+
+
+
+}
+section header ul li button{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: white ;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+}
+section .hlavni {
+width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+section .hlavni .box{
+
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+
+}
+section .hlavni .box .hledani{
+
+
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc ;
+    outline: none;
+    font-size: 16px;
+
+}
+section .hlavni .box .icons {
+position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px ;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+
+
+
+}
+section .hlavni .tlacitko
+{
+margin-top: 20px;
+
+
+}
+section .hlavni .tlacitko button {
+    margin: 0  5px ;
+    padding: 12px 20px;
+    color: #555 ;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+
+}
+p {
+    color: #cccccc;
+
+
+}
+
